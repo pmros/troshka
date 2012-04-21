@@ -1,3 +1,4 @@
 troshka-*.gem
 .project
 .buildpath
+*~
