@@ -5,6 +5,10 @@ other Ruby REPLs. Troshka is written in Ruby and GUI uses Qt bindings.
 
 Troshka is inspired in related projects like [wxirb](https://github.com/emonti/wxirb), [ripl](https://github.com/cldwalker/ripl) and [hotwire](http://code.google.com/p/hotwire-shell).
 
+Sreenshots
+==========
+![Troshka 0.0.2](https://github.com/pmros/troshka/raw/master/screenshots/troshka-0.0.2-01.png)
+
 Features
 ========
 * Code autocompletion (thanks to [Bond](https://github.com/cldwalker/bond)).
