@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   DESC
   s.version = '0.0.2'
   s.required_ruby_version = '>=1.9.0'
-  s.requirements << 'QtRuby' << 'QScintilla'
+  s.requirements << 'QtRuby'
   s.add_dependency 'bond'
   s.bindir = 'bin'
   s.executables = 'troshka'

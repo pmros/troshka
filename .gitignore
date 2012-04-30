@@ -2,3 +2,4 @@ troshka-*.gem
 .project
 .buildpath
 *~
+.redcar
