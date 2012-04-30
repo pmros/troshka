@@ -1,5 +1,6 @@
 - Persist history between sessions.
-- QScintilla and Bond as optional, not requirements.
+- Bond as optional, not requirement.
+- Improve QTextEdit based editor (QScintilla alternative).
 - Improve code indentation.
 - Local variables panel.
 - RI Integration (or some kind of online help).

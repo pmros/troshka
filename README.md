@@ -13,15 +13,16 @@ Features
 ========
 * Code autocompletion (thanks to [Bond](https://github.com/cldwalker/bond)).
 * Multiline input.
-* Ruby syntax highlight (thanks to [QScintilla](http://www.riverbankcomputing.co.uk/software/qscintilla)).
-* Code folding (thanks to [QScintilla](http://www.riverbankcomputing.co.uk/software/qscintilla)).
+* Ruby syntax highlight (if [QScintilla](http://www.riverbankcomputing.co.uk/software/qscintilla) is found).
+* Code folding (if [QScintilla](http://www.riverbankcomputing.co.uk/software/qscintilla) is found).
 * Show array/hash objects like a tree.
 
 Requeriments
 ============
 * [QtRuby](https://projects.kde.org/projects/kde/kdebindings/ruby/qtruby).
-* [QScintilla](http://www.riverbankcomputing.co.uk/software/qscintilla) for code editor.
 * [Bond](https://github.com/cldwalker/bond) for code completion.
+
+*QScintilla is not a requeriment anymore (but it's still recommended).*
 
 Install
 =======
