@@ -1,3 +1,14 @@
+module Troshka
+  def self.start
+    app.start
+  end
+  
+  def self.app
+    @app ||= App.new
+  end
+end
+
+
 %w{Qt4 bond stringio}.each {|lib| require "#{lib}"}
 
 begin

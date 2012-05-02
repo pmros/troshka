@@ -1,13 +1,17 @@
 module Troshka
   
   class Shell
+    attr_accessor :result
+    
     def initialize
       @binding = TOPLEVEL_BINDING
       $stdout = StringIO.new
     end
     
     def run(str)
-      obj = eval(str, @binding, "(girb)")
+      @result = eval(str, @binding, "(troshka)")
+      eval("_ = Troshka.app.shell.result", @binding)
+      
       exception = nil
       
       $stdout.rewind
@@ -19,7 +23,7 @@ module Troshka
       obj = nil
       exception = e
     ensure
-      return {output: output, obj: obj, exception: exception}
+      return {output: output, obj: @result, exception: exception}
     end
     
   end

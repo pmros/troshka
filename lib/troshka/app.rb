@@ -1,6 +1,8 @@
 module Troshka
 
   class App
+    attr_reader :shell
+    
     def initialize
       @qt_app = Qt::Application.new []
         
