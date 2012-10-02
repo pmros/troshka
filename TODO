@@ -1,9 +1,9 @@
 - Persist history between sessions.
-- Bond as optional, not requirement.
 - Improve QTextEdit based editor (QScintilla alternative).
 - Improve code indentation.
 - Local variables panel.
 - RI Integration (or some kind of online help).
 - Some tests.
 - Search and filter features.
-- Methods panel.
+- More advanced methods/proerties panel.
+- Refactoring. There is much dirty code yet.

@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
-require_relative '../lib/troshka'
+require_relative '../lib/troshka/app.rb'
 
-Troshka.start
-
+app = Troshka::App.new
+app.path = File.expand_path('../lib/troshka', File.dirname(__FILE__))
+app.icon = File.expand_path('../resources/logo.png', File.dirname(__FILE__))
+app.start

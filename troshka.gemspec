@@ -10,10 +10,9 @@ Gem::Specification.new do |s|
   other Ruby REPLs. 
   Troshka is written in Ruby and GUI uses Qt bindings.
   DESC
-  s.version = '0.0.3'
+  s.version = '0.1.0'
   s.required_ruby_version = '>=1.9.0'
   s.requirements << 'QtRuby'
-  s.add_dependency 'bond'
   s.bindir = 'bin'
   s.executables = 'troshka'
   s.files = FileList['lib/**/*.*']

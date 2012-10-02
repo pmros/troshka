@@ -1,3 +1,5 @@
+task :default => :gem
+ 
 desc 'Builds the troshka gem'
 task :gem  do
   spec = Gem::Specification.load 'troshka.gemspec'
