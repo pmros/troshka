@@ -5,7 +5,7 @@ class Shell
 
   def initialize
     @binding = TOPLEVEL_BINDING
-    #$stdout = StringIO.new
+    $stdout = StringIO.new
   end
 
   def run(str)
@@ -15,10 +15,10 @@ class Shell
 
     exception = nil
 
-    #$stdout.rewind
-    #output = $stdout.read
-    #$stdout.truncate(0)
-    #$stdout.rewind
+    $stdout.rewind
+    output = $stdout.read
+    $stdout.truncate(0)
+    $stdout.rewind
   rescue Exception => e
     output = nil
     obj = nil
