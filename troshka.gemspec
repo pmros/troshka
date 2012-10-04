@@ -15,6 +15,6 @@ Gem::Specification.new do |s|
   s.requirements << 'QtRuby'
   s.bindir = 'bin'
   s.executables = 'troshka'
-  s.files = FileList['lib/**/*.*']
+  s.files = FileList['lib/**/*'] + FileList['resources/**/*']
   s.homepage = 'https://github.com/pmros/troshka'
 end
