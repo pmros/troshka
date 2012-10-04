@@ -1,7 +1,7 @@
 class DetailPanelItemEnumerableController < ::Shirka::Qt::TreeItemController
   def init(data)
     @item_ids = {}
-    data[1].each {|k, v| add_item [k, v], item_class(obj)}
+    data[1].each_with_index {|i, index| add_item [index, i], item_class(i)}
   end
   
   def item_class(obj)
