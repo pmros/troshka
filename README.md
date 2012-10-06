@@ -7,6 +7,7 @@ Troshka is inspired in related projects like [wxirb](https://github.com/emonti/w
 
 Sreenshots
 ==========
+Troshka 0.0.2
 ![Troshka 0.0.2](https://github.com/pmros/troshka/raw/master/screenshots/troshka-0.0.2-01.png)
 
 Features
@@ -16,13 +17,13 @@ Features
 * Ruby syntax highlight (if [QScintilla](http://www.riverbankcomputing.co.uk/software/qscintilla) is found).
 * Code folding (if [QScintilla](http://www.riverbankcomputing.co.uk/software/qscintilla) is found).
 * Show array/hash objects like a tree.
+* Properties panel.
 
 Requeriments
 ============
 * [QtRuby](https://projects.kde.org/projects/kde/kdebindings/ruby/qtruby).
-* [Bond](https://github.com/cldwalker/bond) for code completion.
 
-*QScintilla is not a requeriment anymore (but it's still recommended).*
+*QScintilla and Bond are not a requeriment anymore but they are very recommended.*
 
 Install
 =======
