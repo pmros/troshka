@@ -1,15 +1,18 @@
 0.1.0
 -----
-Total rewritten. MVC structure.
+- Total rewritten. MVC structure.
+- Bond is not a requeriment anymore (but it's very recommended).
+- New properties panel.
+- Output panel enhancements.
 
 0.0.3
 -----
-QScintilla is not a requeriment anymore (but it's still recommended).
+- QScintilla is not a requeriment anymore (but it's still recommended).
 
 0.0.2
 -----
-Hot fixes.
+- Hot fixes.
 
 0.0.1
 -----
-Initial release.
+- Initial release.
