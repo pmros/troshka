@@ -7,8 +7,10 @@ Troshka is inspired in related projects like [wxirb](https://github.com/emonti/w
 
 Sreenshots
 ==========
-Troshka 0.0.2
-![Troshka 0.0.2](https://github.com/pmros/troshka/raw/master/screenshots/troshka-0.0.2-01.png)
+
+Troshka 0.1.0
+
+![Troshka 0.1.0](https://github.com/pmros/troshka/raw/master/screenshots/troshka-0.1.0-01.png)
 
 Features
 ========
