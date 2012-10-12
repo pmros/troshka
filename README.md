@@ -33,7 +33,7 @@ Install
 
 Usage
 =====
-(Ctrl + Intro) Eval code.
+(Ctrl + Enter) Eval code.
 
 (Ctrl + Space) Autocompletion.
 
