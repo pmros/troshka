@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.version = '0.1.0'
   s.required_ruby_version = '>=1.9.0'
   s.requirements << 'QtRuby'
+  s.add_dependency 'qtbindings' if RUBY_PLATFORM.downcase =~ /mswin|mingw|win32/
   s.bindir = 'bin'
   s.executables = 'troshka'
   s.files = FileList['lib/**/*'] + FileList['resources/**/*']
