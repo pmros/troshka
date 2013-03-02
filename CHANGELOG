@@ -1,3 +1,8 @@
+0.1.1
+-----
+- Bond 0.4.3 does not work with ruby qt, use older version.
+- qtbindings is a requeriment for Windows and MacOSX.
+
 0.1.0
 -----
 - Total rewritten. MVC structure.
