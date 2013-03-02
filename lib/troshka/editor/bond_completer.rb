@@ -1,3 +1,4 @@
+gem 'bond', '<= 0.4.2'
 require "bond"
 
 class Completer
