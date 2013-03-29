@@ -1,3 +1,9 @@
+0.1.2
+-----
+- Latest Bond version (0.4.4) works now.
+- Updated to rubygem 2.0.
+- License GPL3.
+
 0.1.1
 -----
 - Bond 0.4.3 does not work with ruby qt, use older version.

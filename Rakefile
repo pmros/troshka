@@ -1,8 +1,9 @@
+require 'rubygems/package_task'
+
 task :default => :gem
  
 desc 'Builds the troshka gem'
 task :gem  do
   spec = Gem::Specification.load 'troshka.gemspec'
-  builder = Gem::Builder.new(spec)
-  builder.build
+  Gem::Package.build(spec) 
 end
