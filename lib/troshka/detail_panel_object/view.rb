@@ -4,6 +4,6 @@ class DetailPanelObjectView < Shirka::View
   end
   
   def build(widget)
-    widget.text = data
+    widget.plain_text = data
   end
 end
